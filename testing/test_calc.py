@@ -1,13 +1,13 @@
 import pytest
 #from calc_test.calc import Calc
-import calc
+from python.calc import Calc
 
 class TestCalc():
 
 
     @pytest.fixture()
     def test_new_calc(self):
-        self.calc_ob=calc.Calc()
+        self.calc_ob=Calc()
 
     @pytest.mark.parametrize("a,b,sum", [(3,5,8),
                                          (12,-12,0),
