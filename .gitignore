@@ -3,3 +3,4 @@
 # Project exclude paths
 /venv/
 /calc_test/.pytest_cache/
+/testing/report/
